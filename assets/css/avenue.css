@@ -1,0 +1,553 @@
+/* heading */
+.avenue-header {
+    padding: 20px 30px;
+  }
+  .avenue-header .logo-section {
+    width: 182px;
+    height: 22px;
+  }
+  .avenue-header .logo-section a {
+    color: #000;
+    letter-spacing: 0.2px;
+    line-height: 22px;
+    font-family: "roboto-regular";
+    font-size: 18px;
+  }
+  .avenue-header .logo-section span {
+    color: #707070;
+  }
+  .avenue-header .link-section a {
+    color: #707070;
+    line-height: 18px;
+    font-family: "roboto-regular";
+    font-size: 16px;
+    float: right;
+  }
+/* content */
+.avenue-content-image {
+  background-image: url(../images/bg.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #fff;
+  margin: 0px;
+  margin-top: 100px;
+  padding: 0px 200px;
+  position: relative;
+  }
+  .avenue-content img{
+      width:100%;
+      object-fit: cover;
+  }
+  .avenue-desc {
+    padding-left: 100px;
+  }
+  .avenue-content-heading {
+    padding-bottom: 40px;
+  }
+  .avenue-content-heading h2 {
+    color: #000;
+    font-family: "didot-regular";
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .avenue-content{
+    position: relative;
+    margin-top: 150px;
+  }
+  .avenue-content-section{
+    position: absolute;
+    z-index: 999;
+    padding: 0px 200px;
+  } 
+  .avenue-content-desc p {
+    color: #000;
+    font-family: "roboto-regular";
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .avenue-card-section{
+    margin-top:90px;
+    padding-left:90px;
+  }
+  .avenue-card-img{
+      width:215px;
+      border-radius: 11px;
+      display:inline-block;
+  }
+.avenue-card-img img{
+      width:100%;
+      height: 100%;
+      object-fit: cover;
+  }
+  .avenue-card-desc{
+      display:inline-block;
+      vertical-align:top;
+      width: 52%;
+      margin-left: 25px;
+  }
+  .avenue-card-desc span{
+    display:block;
+    font-family: "roboto-regular";
+    color:#959595;
+    line-height: 32px;
+    font-size: 23px;
+    margin-top:25px;
+} 
+.avenue-card-desc label{
+    color: #191919;
+    font-family: "roboto-regular";
+    font-size: 18px;
+    line-height: 24px;
+} 
+/* offer card */
+.avenue-offer-card{
+    width:980px;
+    margin:0px auto;
+   padding:100px 0px;
+}
+.avenue-offer-img{
+    height: 270px;
+    border-radius: 10px;
+}
+.avenue-offer-img img{
+    width:100%;
+    height: 100%;
+  
+}
+.avenue-offer-img-content{
+    position: absolute;
+    top: 25px;
+    left: 70px;
+}
+.avenue-offer-img-desc{
+    position: absolute;
+    bottom: 25px;
+    left: 70px;
+}
+.offer-img-section{
+    position: relative;
+}
+.avenue-offer-img-desc label{
+    color:#fff;
+    font-family: "didot-regular";
+    font-size: 43px;
+    line-height: 52px;
+    width: 52%;
+}
+.avenue-offer-img-content span{
+  background-color:#FF926A;
+  display:inline-block;
+  color:#191919;
+  padding:7px 10px;
+  font-size: 15px;
+  border-radius: 18px;
+}
+.avenue-offer-contact{
+    border-radius: 10px;
+    padding:15px 70px;
+    background-color:#E5E5E5;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.avenue-offer-contact p{
+    font-family: "roboto-regular";
+    font-size: 15px;
+    line-height: 32px;
+    color:#191919;
+    font-weight: 600;
+}
+.avenue-footer{
+    background-color:#F0F0F0;
+    height: 50px;
+}
+.owl-nav button:focus{
+    outline: 0px;
+}
+.owl-nav {
+    margin-top:20px;
+    text-align: center;
+    display: none;
+}
+.owl-nav .owl-prev{
+    font-size: 30px !important;
+}
+.owl-nav .owl-next{
+    font-size: 30px !important;
+}
+.owl-dots{
+  display:none;
+}
+.own-country{
+  position: absolute;
+  bottom:60px;
+  width:25%;
+}
+.own-country p{
+  font-family: "didot-regular";
+  font-size: 50px;
+  line-height: 60px;
+  color:#fff; 
+}
+.get-in-touch-section {
+  width: 400px;
+  margin: 130px auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.get-in-touch-section .get-in-touch {
+  cursor: pointer;
+}
+.gt-details ul li {
+  display: inline-block;
+}
+.gt-details ul li:last-child {
+  float: right;
+}
+.gt-details ul li label {
+  font-family: "roboto-regular";
+  color: #a0a0a0;
+  font-size: 13px;
+  display: block;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.gt-details ul li:last-child label {
+  text-align: right;
+}
+.gt-details ul li span {
+  font-family: "didot-regular";
+  color: #000;
+  font-size: 16px;
+  display: block;
+}
+.get-in-touch a {
+  border: 1px solid #707070;
+  text-decoration: none;
+  color: #000;
+  padding: 25px 20px;
+  width: 100%;
+  display: block;
+  margin-bottom: 40px;
+  background-color: #fff;
+}
+.gt-details {
+  margin-bottom: 75px;
+}
+
+.get-in-touch a label {
+  font-family: "didot-regular";
+  font-size: 16px;
+  line-height: 20px;
+  color: #000;
+  cursor: pointer;
+  font-weight: 500;
+}
+.get-in-touch a span svg {
+  width: 20px;
+  float: right;
+}
+/* modal */
+.signup-modal .modal-dialog {
+  width: 524px;
+}
+.signup-modal .modal-body {
+  padding: 0px;
+}
+.signup-modal .custom-input {
+  position: relative;
+}
+.signup-modal .custom-input input {
+  width: 360px;
+  height: 70px;
+  margin-bottom: 20px;
+  padding: 30px 8px 8px 15px;
+  font-size: 19px;
+  letter-spacing: 0.5px;
+  line-height: 37px;
+  font-family: "roboto-regular";
+  border: 1px solid #dfdfdf;
+}
+.signup-modal .custom-input input:focus {
+  outline: none;
+}
+.signup-modal .custom-button {
+  margin-bottom: 40px;
+}
+.signup-modal .close-button {
+  position: absolute;
+  right: -50px;
+  top: -10px;
+}
+.signup-modal .close-button button {
+  font-size: 25px;
+  font-weight: 100;
+  opacity: 1;
+  outline: 0;
+}
+.signup-modal .custom-input label {
+  position: absolute;
+  left: 20px;
+  top: 10px;
+  font-family: "roboto-regular";
+  font-size: 10px;
+  color: #191919;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.signup-modal .custom-input label.error {
+  bottom: 0px;
+  top: initial;
+  color: red;
+  letter-spacing: 0px;
+  text-transform: initial;
+  left: 0px;
+}
+.signup-modal .signup-heading h1 {
+  color: #191919;
+  font-family: "didot-regular";
+  font-size: 40px;
+  line-height: 70px;
+  text-align: center;
+}
+.signup-modal .modal {
+  padding-right: 0px !important;
+}
+.signup-modal .modal-content {
+  border-radius: 0px;
+  box-shadow: none;
+  border: 1px solid #707070;
+  padding: 40px 82px;
+}
+.signup-modal .signup-heading p {
+  color: #a0a0a0;
+  font-family: "roboto-regular";
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  margin-bottom: 35px;
+}
+/* loader */
+.loader {
+  position: relative;
+  width: 64px;
+  height: 390px;
+  margin: 0px auto;
+}
+.loader .loader-section {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  text-align: center;
+  width: 100%;
+  top: 40%;
+}
+.loader .loader-section div {
+  position: absolute;
+  border: 4px solid #1919;
+  opacity: 1;
+  border-radius: 50%;
+  animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+.loader .loader-section div:nth-child(2) {
+  animation-delay: -0.5s;
+}
+@keyframes lds-ripple {
+  0% {
+    top: 28px;
+    left: 28px;
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+  100% {
+    top: -1px;
+    left: -1px;
+    width: 58px;
+    height: 58px;
+    opacity: 0;
+  }
+}
+/* Success State */
+.success-state {
+  position: relative;
+  width: 100%;
+  height: 390px;
+  text-align: center;
+}
+.success-state label {
+  position: absolute;
+  top: 40%;
+  left: 0px;
+  right: 0px;
+  color: #000;
+  font-size: 41px;
+  font-family: "didot-regular";
+}
+
+/* Responsive */
+@media screen and (max-width: 1300px) {
+  .avenue-content-section{
+    padding:0px 150px;
+  }
+}
+@media screen and (max-width: 1200px){
+  .avenue-content-section{
+    padding:0px;
+  }
+  .avenue-offer-card{
+    width:90%;
+  }
+  .avenue-content {
+    padding: 0px 100px;
+  }
+  .avenue-desc{
+    padding-left:50px;
+  }
+  .own-country{
+    width:40%;
+  }
+  .avenue-content-image{
+    padding:0px 100px;
+  }
+}
+@media screen and (max-width: 991px){
+  .avenue-offer-img-desc{
+    left: 40px;
+  }
+  .avenue-offer-img-content{
+    left:40px;
+  }
+  .avenue-offer-img-desc label{
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .avenue-offer-contact{
+    padding:15px 40px;
+  }
+  .avenue-desc {
+    padding-left: 0px;
+}
+.avenue-content-heading h2{
+  font-size: 30px;
+  line-height: 40px;
+}
+.own-country {
+  width: 50%;
+}
+.own-country p{
+  font-size: 30px;
+  line-height: 40px;
+}
+}
+@media screen and (max-width: 768px){
+  .avenue-content-image{
+    padding:0px 20px;
+  }
+
+  .avenue-offer-contact {
+    padding: 15px 20px;
+}
+  .avenue-offer-img-desc label{
+    width:85%;
+  }
+  .avenue-content {
+    padding: 0px 20px;
+    margin-top:30px;
+}
+.avenue-card-desc span{
+  font-size: 18px;
+    margin-top: 10px;
+}
+.avenue-card-desc label{
+  font-size: 14px;
+  line-height: 24px;
+}
+.avenue-card-section{
+  padding-left:0px;
+  margin-top:40px;
+}
+.avenue-card-desc{
+  width:90%;
+  margin-top: 10px;
+}
+.avenue-card-img{
+  width:90%;
+  margin-left: 20px;
+}
+.avenue-offer-card{
+  padding:40px 0px;
+}
+.own-country {
+  width: 85%;
+  bottom:30px;
+}
+.get-in-touch-section {
+  width: 100%;
+  margin: 0px auto;
+  padding: 0px 15px;
+  padding-bottom: 0px;
+  padding-top: 40px;
+}
+.gt-details ul li {
+  display: block;
+}
+.gt-details ul li:last-child {
+  float: none;
+  margin-bottom: 0px;
+}
+.gt-details ul li:last-child label {
+  text-align: left;
+}
+.gt-details ul li {
+  display: block;
+  margin-bottom: 30px;
+}
+/* modal */
+.signup-modal .modal-dialog {
+  width: 95%;
+  margin: 20px auto;
+  padding-right: 0px;
+}
+.signup-modal .custom-input input {
+  width: 100%;
+}
+.signup-modal .modal-content {
+  padding: 20px 40px;
+}
+.signup-modal .close-button {
+  position: absolute;
+  right: -10px;
+  top: -10px;
+}
+.signup-modal {
+  z-index: 99999;
+}
+.modal-backdrop {
+  z-index: 99;
+}
+.avenue-offer-img-desc{
+  left: 20px;
+}
+.avenue-offer-img-content{
+  left:20px;
+}
+}
+@media screen and (max-width: 420px) {
+  .signup-modal .modal-dialog {
+    width: 100%;
+    margin: 0px auto;
+  }
+  .signup-modal .modal-content {
+    padding: 20px 20px;
+  }
+  .signup-modal .signup-heading h1 {
+    font-size: 20px;
+  }
+  .signup-modal .modal-dialog {
+    padding: 15px;
+  }
+}

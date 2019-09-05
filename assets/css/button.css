@@ -1,0 +1,18 @@
+.signup-btn{
+    background-image: linear-gradient(to right, #09281b, #174a2a, #326e33, #599336, #8ab733);    display:inline-block;
+    color:#fff;
+    font-family: "roboto-regular";
+    letter-spacing: 2px;
+    line-height: 20px;
+    padding:26px 150px;
+    cursor: pointer;
+    width:100%;
+    outline: 0;
+    display:inline-block !important;
+}
+@media screen and (max-width: 768px){
+    .signup-btn{   
+        padding: 26px 50px;
+        text-align: center;
+    }
+}

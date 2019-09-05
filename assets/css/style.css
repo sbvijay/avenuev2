@@ -1,0 +1,42 @@
+body{
+	font-synthesis: none;
+	-moz-font-feature-settings: 'kern';
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-family: "roboto-regular";
+	background-color: #FFFFFF;
+}
+/*font*/
+@font-face {
+	font-family: "didot-regular";
+	src:url("../fonts/didot-regular.ttf") format("opentype");
+}
+@font-face {
+	font-family: "didot-italic";
+	src:url("../fonts/didot-italic.ttf") format("opentype");
+}
+@font-face {
+	font-family: "roboto-regular";
+	src:url("../fonts/roboto-regular.ttf") format("opentype");
+}
+@font-face {
+	font-family: "roboto-light";
+	src:url("../fonts/roboto-light.ttf") format("opentype");
+}
+a{
+    text-decoration: none !important;
+}
+h1,h2,h3,h4,h5,h6{
+    margin:0px;
+}
+p{
+    margin:0px;
+    padding:0px;
+}
+.row{
+	margin-right:0px;
+	margin-left:0px;
+}
+label{
+	font-weight: 500;
+}
