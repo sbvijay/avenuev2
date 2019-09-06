@@ -6,6 +6,9 @@ body{
 	font-family: "roboto-regular";
 	background-color: #FFFFFF;
 }
+html{
+	scroll-behavior: smooth;
+}
 /*font*/
 @font-face {
 	font-family: "didot-regular";
@@ -39,4 +42,7 @@ p{
 }
 label{
 	font-weight: 500;
+}
+.pad0{
+	padding:0px;
 }

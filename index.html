@@ -37,26 +37,26 @@
     <body>
         <!-- Header -->
         <div class="row avenue-header">
-            <div class="col-md-6 col-xs-6">
+            <div class="col-md-6 col-xs-6 pad0">
                 <div class="logo-section">
-                    <a href="">AVENUE<span>HOTELS</span></a>
+                    <img src="assets/images/logo.png" />
                 </div>
             </div>
-            <div class="col-md-6 col-xs-6">
+            <div class="col-md-6 col-xs-6 pad0">
                 <div class="link-section">
-                    <a href="">TALK TO US</a>
+                    <a href="#signup">TALK TO US</a>
                 </div>
             </div>
         </div>
         <!-- Content -->
         <div class="row avenue-content">
             <div class="avenue-content-section">
-                    <div class="col-md-6">
+                    <div class="col-md-6 pad0">
                             <div class="avenue-content-heading">
                               <h2>For us, it’s all about paying attention.</h2>
                             </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 pad0">
                             <div class="avenue-content-desc avenue-desc">
                               <p>
                                   Since 25 years that’s what we have been doing, focusing on every little aspect and refining them, year on year. We have been attentively looking around, to curate fine experience and creating warm, welcoming abodes. And attentively listening to our guests to enrich the moments they spend with us. A peek into our properties will tell you how unique and distinct they are from each other, but one thing remains consistent, the smile that you would take back home.
@@ -109,6 +109,8 @@
                                 </div>
                             </div>
             </div>
+            <span class="line">
+            </span>
             <!-- offer-card -->
             <div class="avenue-offer-card">
                 <div class="offer-img-section">
@@ -121,15 +123,17 @@
                         <div class="avenue-offer-img-desc">
                             <label>5 days, 4 nights in God’s own country</label>
                         </div>
-
+                        
                 </div>
                 <div class="avenue-offer-contact">
                     <p>To know more, call us on +91 95390 58888 or reservation@avenuehotel.in</p>
                 </div>
+              
             </div>
                <!-- Get in touch -->
+         
             <div class="get-in-touch-section">
-                <div class="get-in-touch">
+                <div class="get-in-touch" id="signup">
                 <a data-toggle="modal" data-target="#signupModal">
                     <label>Sign me up for offers</label>
                     <span>
@@ -214,6 +218,7 @@
             <script src="assets/js/owl.carousel.min.js"></script>
             <script src="assets/js/jquery.validate.min.js"></script>
             <script src="assets/js/script.js"></script>
+            <script src="assets/js/parallax.js"></script>
             <script>
                  $(document).ready(function () {
                     $('.owl-carousel').owlCarousel({
@@ -248,6 +253,8 @@
                             }
                         }
                     })
+
+                    $('.parallax-window').parallax({imageSrc: '/assets/images/bg.png'});
                  });
             </script>
     </body>
