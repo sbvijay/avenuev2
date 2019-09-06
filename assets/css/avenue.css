@@ -49,6 +49,7 @@
   margin-top: 100px;
   padding: 0px 200px;
   position: relative;
+  background-position: center;
  
   }
   .avenue-content img{
@@ -233,7 +234,7 @@
   text-align: right;
 }
 .gt-details ul li span {
-  font-family: "didot-regular";
+  font-family: "roboto-regular";
   color: #000;
   font-size: 16px;
   display: block;
@@ -253,7 +254,7 @@
 }
 
 .get-in-touch a label {
-  font-family: "didot-regular";
+  font-family: "roboto-regular";
   font-size: 16px;
   line-height: 20px;
   color: #000;
@@ -462,7 +463,19 @@
 @media screen and (max-width: 768px){
   .avenue-content-image{
     padding:0px 20px;
+    height: calc(100vh - 160px);
   }
+  .own-country p {
+    font-size: 24px;
+    line-height: 30px;
+}
+  .avenue-content-heading {
+    padding-bottom: 25px;
+}
+.avenue-content-desc p{
+  font-size: 14px;
+  line-height: 22px;
+}
 
   .avenue-offer-contact {
     padding: 15px 20px;
