@@ -50,7 +50,6 @@
   padding: 0px 200px;
   position: relative;
   background-position: center;
- 
   }
   .avenue-content img{
       width:100%;
@@ -108,8 +107,8 @@
     display:block;
     font-family: "roboto-regular";
     color:#959595;
-    line-height: 32px;
-    font-size: 23px;
+    line-height: 28px;
+    font-size: 18px;
     margin-top:25px;
 } 
 .avenue-card-desc label{
