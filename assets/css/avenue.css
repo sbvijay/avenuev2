@@ -19,6 +19,9 @@
   font-family: "roboto-regular";
   font-size: 18px;
 }
+.avenue-card-section a{
+  cursor: pointer;
+}
 .avenue-header .logo-section span {
   color: #707070;
 }
